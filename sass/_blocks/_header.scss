@@ -1,0 +1,122 @@
+header{
+    margin-top: 180px;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+.header__title{
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    text-decoration: none;
+    margin-bottom: 36px;
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+    align-items: center;
+}
+.header__main_img{
+    width: 450px;
+    margin-top: 36px;
+    height: 420px;
+    position: relative;
+    button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 3px 10px;
+        padding: 6px 20px;
+        color: #FFFFFF;
+        background-color: #6AAE55;
+        border: none;
+    }
+}
+.img_box__list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header__content_box{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    h2{
+        font-size: 24px;
+        line-height: 32px;
+        color: #5B4A58;
+    }
+    h3{
+        font-size: 18px;
+        line-height: 150%;
+        color: #5B4A58;
+    }
+}
+.button__box{
+    display: flex;
+    gap: 20px;
+    a{
+        color: #828282;
+        text-decoration: none;
+        align-items: center;
+        padding: 9px 16px;
+        gap: 49px;
+        display: flex;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #FFFFFF;
+        justify-content: space-between;
+        i{
+            opacity: 0.6;
+        }
+    }
+    a:hover{
+        border: 2px solid #6AAE55;
+        color: #5B4A58;
+    }
+    a:hover i{
+        color: #6AAE55;
+        opacity: 1;
+    }
+}
+
+.content__box{
+    width: 624px;
+    padding: 14px 24px;
+    font-size: 16px;
+line-height: 150%;
+color: #5B4A58;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    p{
+        font-size: 16px;
+line-height: 22px;
+display: inline-block;
+margin-right: 34px;
+color: #828282;
+    }
+    p:hover{
+        color: #5B4A58;
+        border-bottom: 1px solid #5B4A58;;
+    }
+height: 257px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.divv{
+    padding: 23px 24px;
+    background-color: #FFFFFF;
+    gap: 24px;
+    button{
+        border: none;
+    }
+    border-radius: 10px;
+}
+.divv__button{
+    padding: 11px 34px;
+    background: #6AAE55;
+    border-radius: 10px;
+    
+}

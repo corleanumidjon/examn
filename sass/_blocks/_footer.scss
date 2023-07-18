@@ -1,0 +1,104 @@
+footer{
+    color: #FFFFFF;
+    background-color: #5B4A58;
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+}
+
+.footer__line{
+    background-color: #A29BB4;
+    margin-bottom: 30px;
+  
+    color: #A29BB4;
+}
+.footer__main{
+    margin-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 20px;
+    .main_1_1{
+        font-size: 18px;
+        line-height: 21px;
+        cursor: pointer;
+        color: #6AAE55;
+    }
+    .footer__main_1{
+        a{
+            display: flex;
+            gap: 11px;
+            align-items: center;
+            margin-top: 18px;
+            width: 200px;
+        }
+    }
+    .footer__main_2{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .footer__main_3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li{
+            display: flex;
+            gap: 10px;
+        }
+        .footer__main__input-box{
+            p{
+                font-size: 14px;
+line-height: 19px;
+color: #F2F2F2;
+            }
+            input{
+                background: #FFFFFF;
+border-radius: 2px;
+border: #FFFFFF;
+padding: 8px 16px;
+            }
+        }
+    }
+    .main__input{        
+background: #FFFFFF;
+border-radius: 2px;
+border: #FFFFFF;
+        padding: 32px 122px;
+    }
+}
+.footer__header{
+    padding-top: 31px;
+    background-color: #746471;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 31px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+}
+
+.footer__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    p{
+        font-size: 16px;
+        line-height: 100%;
+        color: #A69BA4;
+        margin-bottom: 30px;
+    }
+}

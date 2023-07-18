@@ -1,0 +1,29 @@
+nav{
+    position: fixed;
+    width: 1300px;
+    padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #5B4A58;
+    }
+    p{
+        opacity: 0.5;
+    }
+    a:hover{
+        color: #6AAE55;
+    }
+}
